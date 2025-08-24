@@ -1,0 +1,47 @@
+.trades-table-container {
+     margin-top: 20px;
+     background: #fff;
+     padding: 16px;
+     border-radius: 12px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.trades-table{
+
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.trades-table th, .trades-table td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.trades-table th{
+    background-color: #f4f4f4;;
+}
+
+.positive{
+    color: #28a745;
+    font-weight: bold;
+}
+
+.negative{
+    color: #dc3545;
+    font-weight: bold;
+}
+
+@media (max-width : 768px){
+    .trades-table th,.trades-table td {
+        padding: 10px 8px;
+        font-size: 0.85rem;
+    }
+}
